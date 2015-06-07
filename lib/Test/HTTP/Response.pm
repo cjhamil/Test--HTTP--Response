@@ -28,7 +28,7 @@ Test::HTTP::Response - Perl testing module for HTTP responses
 
 =head1 VERSION
 
-0.06
+0.07
 
 =head1 DESCRIPTION
 
@@ -48,7 +48,7 @@ our @EXPORT = qw(status_matches status_ok status_redirect status_not_found statu
                  all_headers_match
                  cookie_matches extract_cookies);
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 my $Test = Test::Builder->new;
 my $CLASS = __PACKAGE__;
