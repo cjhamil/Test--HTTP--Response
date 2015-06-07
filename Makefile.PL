@@ -5,8 +5,9 @@ WriteMakefile(
     NAME              => 'Test::HTTP::Response',
     VERSION_FROM      => 'lib/Test/HTTP/Response.pm', # finds $VERSION
     PREREQ_PM         => {
-                            'HTTP::Message' => 5.828,
+                            'CGI::Cookie' => 1.31,
                             'HTTP::Cookies' => 5.827,
+                            'HTTP::Message' => 5.828,
                          }, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
        (AUTHOR        => 'Aaron Trevena <teejay@(none)>') : ()),
